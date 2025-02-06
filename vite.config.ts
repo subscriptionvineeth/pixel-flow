@@ -7,4 +7,6 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
+  base:'https://pixel-flow-eight.vercel.app',
+  publicDir: 'public', // explicitly set public directory
 });
