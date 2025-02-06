@@ -8,13 +8,8 @@ const techCompanies = [
   { name: 'Microsoft', logo: `/assets/logo1.svg` },
   { name: 'Google', logo: `./assets/logo2.svg` },
   { name: 'Apple', logo: `/assets/logo3.svg` },
-  { name: 'Amazon', logo: `/assets/logo4.svg` },
-  { name: 'Meta', logo: `${baseUrl}/assets/logo5.svg` },
-  { name: 'IBM', logo: `${baseUrl}/assets/logo6.svg` },
-  { name: 'Intel', logo: `${baseUrl}/assets/logo7.svg` },
-  { name: 'Oracle', logo: `${baseUrl}/assets/logo8.svg` },
-  { name: 'Salesforce', logo: `${baseUrl}/assets/logo9.svg` },
-  { name: 'Adobe', logo: `${baseUrl}/assets/logo10.svg` }
+  { name: 'Amazon', logo: `/assets/logo5.svg` },
+  
 ];
 
 const Clients = () => {
