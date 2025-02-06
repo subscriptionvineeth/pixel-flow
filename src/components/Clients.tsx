@@ -8,7 +8,7 @@ const techCompanies = [
   { name: 'Microsoft', logo: `${baseUrl}/assets/logo1.svg` },
   { name: 'Google', logo: `${baseUrl}/assets/logo2.svg` },
   { name: 'Apple', logo: `${baseUrl}/assets/logo3.svg` },
-  { name: 'Amazon', logo: `${baseUrl}/assets/logo4.svg` },
+  { name: 'Amazon', logo: `${baseUrl}/assets/logo10.svg` },
   { name: 'Meta', logo: `${baseUrl}/assets/logo5.svg` },
   { name: 'IBM', logo: `${baseUrl}/assets/logo6.svg` },
   { name: 'Intel', logo: `${baseUrl}/assets/logo7.svg` },
