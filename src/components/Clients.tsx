@@ -3,18 +3,18 @@ import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 gsap.registerPlugin(ScrollTrigger);
-
+const baseUrl = import.meta.env.VITE_APP_BASE_URL || '';
 const techCompanies = [
-  { name: 'Microsoft', logo: '/assets/microsoft.svg' },  // Check if this is the actual filename
-  { name: 'Google', logo: '/assets/google.svg' },       // Check if this is the actual filename
-  { name: 'Apple', logo: '/assets/apple.svg' },         // Check if this is the actual filename
-  { name: 'Amazon', logo: '/assets/amazon.svg' },       // Was incorrectly using logo9.svg
-  { name: 'Meta', logo: '/assets/meta.svg' },           // Check if this is the actual filename
-  { name: 'IBM', logo: '/assets/ibm.svg' },            // Check if this is the actual filename
-  { name: 'Intel', logo: '/assets/intel.svg' },         // Check if this is the actual filename
-  { name: 'Oracle', logo: '/assets/oracle.svg' },       // Check if this is the actual filename
-  { name: 'Salesforce', logo: '/assets/salesforce.svg' }, // Was incorrectly using logo9.svg
-  { name: 'Adobe', logo: '/assets/adobe.svg' }          // Check if this is the actual filename
+  { name: 'Microsoft', logo: `${baseUrl}/assets/logo1.svg` },
+  { name: 'Google', logo: `${baseUrl}/assets/logo2.svg` },
+  { name: 'Apple', logo: `${baseUrl}/assets/logo3.svg` },
+  { name: 'Amazon', logo: `${baseUrl}/assets/logo4.svg` },
+  { name: 'Meta', logo: `${baseUrl}/assets/logo5.svg` },
+  { name: 'IBM', logo: `${baseUrl}/assets/logo6.svg` },
+  { name: 'Intel', logo: `${baseUrl}/assets/logo7.svg` },
+  { name: 'Oracle', logo: `${baseUrl}/assets/logo8.svg` },
+  { name: 'Salesforce', logo: `${baseUrl}/assets/logo9.svg` },
+  { name: 'Adobe', logo: `${baseUrl}/assets/logo10.svg` }
 ];
 
 const Clients = () => {
